@@ -6,7 +6,7 @@ This repository and readme is made to help me remember more about how **_git_** 
 
 It gets the name of the current branch automatically without having to write it out.
 
-Other helpful commands:
+## Other helpful commands:
 
 ### Alias for listing the names of all created local branches (put this line in .bashrc or .zshrc or whatever):
 
