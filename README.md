@@ -8,7 +8,7 @@ Other helpful commands:
 
 ### Alias for listing the names of all created local branches (put this line in .bashrc or .zshrc or whatever):
 
-#### llb = list local branches
+**llb** = **l**ist **l**ocal **b**ranches
 ```
 alias llb='ls .git/refs/heads'
 ```
