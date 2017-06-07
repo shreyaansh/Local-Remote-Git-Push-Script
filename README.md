@@ -14,7 +14,7 @@ alias llb='ls .git/refs/heads'
 ```
 ### Alias for listing the names of all the created remote branches (do the same as the above command):
 
-#### lrb = list remote branches
+**lrb** = **l**ist **r**emote **b**ranches
 
 This command assumes that your naming convention for a remote branch is **user_name/branch_name**.
 
