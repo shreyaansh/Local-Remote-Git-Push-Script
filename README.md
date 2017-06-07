@@ -2,6 +2,8 @@
 
 Script(s) I wrote for pushing my code from my local branch to the remote branch when working in a team environment with a lot of branches being sent for code review and stuff before the code getting pushed to master.
 
+This repository and readme is to help me remember more about how **_git_** works when working in a team environment and more about how it works.
+
 It gets the name of the current branch automatically without having to write it out.
 
 Other helpful commands:
