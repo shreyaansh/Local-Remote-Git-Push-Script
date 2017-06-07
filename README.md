@@ -1,4 +1,4 @@
-# Local Branch Push Scripts
+# Local-Remote Git Push Script
 
 Script(c) I wrote for pushing my code from my local branch to the remote branch when working in a team environment with a lot of branches being sent for code review and stuff before the code getting pushed to master.
 
