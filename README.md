@@ -1,8 +1,8 @@
 # Local-Remote Git Push Script
 
-Script(s) I wrote for pushing my code from my local branch to the remote branch when working in a team environment with a lot of branches being sent for code review and stuff before the code getting pushed to master.
+Script(s) I wrote for pushing my code from my local branch to the remote branch when working in a team environment with every feature being worked on a different local branch which is then pushed to a remote branch to be code reviewed, and when approved to be sent for QA testing, which when done, finally getting _merged_ (local master) and then _pushed_ (remote master) to master.
 
-This repository and readme is to help me remember more about how **_git_** works when working in a team environment and more about how it works.
+This repository and readme is made to help me remember more about how **_git_** works when working in a team environment and also how it works in general.
 
 It gets the name of the current branch automatically without having to write it out.
 
@@ -28,3 +28,5 @@ Command for getting the name of the current branch you're in to use for the git 
 ```
 git symbolic-ref HEAD | cut -d "/" -f 3
 ```
+
+Also, if you are working in a big team with your own **_make_** script which is different than what other people are using, it would be better to put the name of your make script in the **_.git/info/exclude_** file which is available and unique to each contributor rather than putting it in the **_.gitignore_** file which is common to everyone working in the same repository.
